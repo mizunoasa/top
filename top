@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>みずのあさ - ポートフォリオ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>みずのあさ</h1>
+    <p>漫画家 / イラストレーター</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">自己紹介</a></li>
+      <li><a href="#works">作品</a></li>
+      <li><a href="#contact">お問い合わせ</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- 自己紹介セクション -->
+    <section id="about">
+      <h2>自己紹介</h2>
+      <p>簡単な経歴やスキルなどをここに書きます。</p>
+    </section>
+
+    <!-- 作品セクション -->
+    <section id="works">
+      <h2>制作実績</h2>
+
+      <div class="work">
+        <h3>作品タイトル 1</h3>
+        <img src="images/sample1.jpg" alt="作品1のサムネイル">
+        <p>説明文や使用技術を書くとよいです。</p>
+        <a href="https://example.com" target="_blank">サイトを見る</a>
+      </div>
+
+      <div class="work">
+        <h3>作品タイトル 2</h3>
+        <img src="images/sample2.jpg" alt="作品2のサムネイル">
+        <p>説明文や使用技術を書くとよいです。</p>
+        <a href="https://example.com" target="_blank">サイトを見る</a>
+      </div>
+    </section>
+
+    <!-- お問い合わせセクション -->
+    <section id="contact">
+      <h2>お問い合わせ</h2>
+      <p>メール: <a href="mailto:your@email.com">your@email.com</a></p>
+      <p>X（旧Twitter）: <a href="https://twitter.com/your_account" target="_blank">@your_account</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 あなたの名前</p>
+  </footer>
+
+</body>
+</html>
