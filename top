@@ -1,3 +1,30 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header, nav, main, footer {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.work img {
+  max-width: 100%;
+  height: auto;
+}
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
